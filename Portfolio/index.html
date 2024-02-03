@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridhi - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(48, 56, 87);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(70, 70, 186);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(71, 95, 146);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 60%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin: 70px 50px;
+            align-items: center;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(110, 61, 155);
+        }
+
+        #element {
+            color: rgb(110, 61, 155);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h2 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            font-size: 9px;
+            width: 90px;
+        }
+
+        footer {
+            background-color: rgb(46, 38, 53);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+            ;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background: rgb(147, 73, 187);
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .leftSection .buttons{
+padding:22px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ridhi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple"> Ridhi</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/download.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What have I done so far</span>
+            <h2>Past Experience</h2>
+            <div class="box">
+                <div class="vertical">
+                   
+                    <div class="vertical-title">
+                        HTML Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        I am a versatile web developer 
+                        proficient in front-end and back-end
+                         technologies, crafting responsive and
+                          dynamic websites with expertise in HTML,
+                           CSS and JavaScript.
+                    </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="vertical-title">
+                        C Programmer
+                    </div>
+                    <div class="vertical-desc">
+                        I am proficient in C programming,
+                         having developed efficient algorithms 
+                         and data structures for multiple projects,
+                          showcasing strong problem-solving abilities 
+                          and a focus on performance optimization.
+                    </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="vertical-title">
+                        Python Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I am skilled in Python development,
+                         leveraging its versatility to create
+                          robust applications and scripts, 
+                          demonstrating proficiency in data 
+                          manipulation and automation.
+                    </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="vertical-title">
+                        Database Engineer
+                    </div>
+                    <div class="vertical-desc">
+                        "I am experienced in database engineering,
+                         proficient in MySQL, designing efficient 
+                         database structures and optimizing 
+                         queries for improved performance and scalability.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Ridhi's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            <h6> Copyright &#169; ridhisportfolio.com | All rights reserved</h6>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
